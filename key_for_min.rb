@@ -3,6 +3,6 @@
 
 def key_for_min_value(name_hash)
   min_key = nil
-  name_hash.each do |key, key|
-    min_key = key if 
+  name_hash.each do |key, val|
+    min_key = key if min_key == nil || 
 end
